@@ -1,0 +1,8 @@
+# vscode directorie(s)
+.vscode/*
+
+# IntelliJ directorie(s)
+.idea/*
+
+# Crash log files
+crash.log
