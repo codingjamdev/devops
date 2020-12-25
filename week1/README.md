@@ -66,7 +66,10 @@ CodeBuild가 도커 이미지를 Amazon ECR 리포지토리에 업로드 가능 
 이미지가 정상적으로 업로드 되었는지 확인 
 
 ### Pull Request 테스트
+
 별도의 Branch를 만들어 app.py의 Hello World 리턴값 변경 후 main으로 PR 수행
+![PR](build_process_by_github_webhook.png)
+CI 도구가 변경 사항을 인지하여 자동으로 수행 되는지 확인
 
 ### (옵션) ECR image 로컬 테스트
 
